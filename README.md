@@ -39,17 +39,18 @@ http://localhost:8501
 
 ### 1. Build image
 ```bash
-docker build -t iraya-app .
+docker build -t irashumad/iraya-app:latest .
 ```
 
 ### 2. Run container
 ```bash
-docker run -p 8503:8501 iraya-app
+docker run -p 8503:8501 irashumad/iraya-app:latest
 ```
 
 ## 🗄 Database Schema
 
 The system creates a SQL table with the following fields:
+
 	•	id
 	•	filename
 	•	extracted_text
