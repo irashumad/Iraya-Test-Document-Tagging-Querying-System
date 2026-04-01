@@ -1,0 +1,11 @@
+
+__pycache__/
+*.pyc
+documents.db
+temp.pdf
+.env
+.venv/
+venv/
+__pycache__/
+*.db
+temp.pdf
