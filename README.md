@@ -74,8 +74,7 @@ Uses retrieval-based approach to return relevant answers from document content
 	•	SQLite is used for simplicity (can be replaced with Azure SQL / AWS RDS)
 	•	Designed to demonstrate full pipeline: OCR → Database → AI → Querying
 	
-#⚠️ Note: Local setup may require additional system dependencies (Tesseract OCR and Poppler). For a fully reproducible environment, it is recommended to run the application using Docker.
-⸻
+
 
 👤 Author
 
