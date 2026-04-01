@@ -35,6 +35,9 @@ python -m streamlit run app.py
 http://localhost:8501
 ```
 
+⚠️ Note: Local setup may require additional system dependencies (Tesseract OCR and Poppler). For a fully reproducible environment, it is recommended to run the application using Docker.
+
+
 ## 🐳 Docker
 
 ### 1. Build image
@@ -70,7 +73,8 @@ Uses retrieval-based approach to return relevant answers from document content
 # 📌 Notes
 	•	SQLite is used for simplicity (can be replaced with Azure SQL / AWS RDS)
 	•	Designed to demonstrate full pipeline: OCR → Database → AI → Querying
-
+	
+#⚠️ Note: Local setup may require additional system dependencies (Tesseract OCR and Poppler). For a fully reproducible environment, it is recommended to run the application using Docker.
 ⸻
 
 👤 Author
