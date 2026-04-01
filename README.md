@@ -47,7 +47,7 @@ docker build -t irashumad/iraya-app:latest .
 
 ### 2. Run container
 ```bash
-docker run -p 8503:8501 irashumad/iraya-app:latest
+docker run -p 8504:8501 irashumad/iraya-app:latest
 ```
 
 ## 🗄 Database Schema
