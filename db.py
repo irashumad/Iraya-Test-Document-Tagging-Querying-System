@@ -1,8 +1,11 @@
 import sqlite3
+import os
 from datetime import datetime
 
+DB_PATH = os.path.join(os.path.dirname(__file__), "documents.db")
+
 def create_connection():
-    return sqlite3.connect("documents.db")
+    return sqlite3.connect(DB_PATH)
 
 def create_table():
     conn = create_connection()
